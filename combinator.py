@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
 Combinator- A python based dictionary generator
-Author- VeeKay
+Author- VeeKay aka Vishawash
 last modified on 06/08/18 4:47 pm
 
 
 """
 
-# usage ./combinator.py -c 4 -f combo word1 word2
+# usage ./combinator.py -c <Max no. of words per combo> -f <filename> word1 word2 ......
 import sys
 from optparse import OptionParser
 def combination(word_list,word_num):
